@@ -494,7 +494,7 @@ input::-webkit-inner-spin-button {
   margin-bottom: 16px;
 }
 .saas-section-title h2 span {
-  background: linear-gradient(90deg, #53DFC6 45.35%, #6299FC 100%);
+  background: linear-gradient(90deg, #6c1d1d 45.35%, #6299FC 100%,);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3737,7 +3737,26 @@ header .header-top .header-info-right ul li i {
   overflow: hidden;
   z-index: 1;
   margin-bottom: 30px;
+  height: 100%;
 }
+
+@media (max-width: 596px) {
+  .app-showcase-item {
+      border-radius: 16px;
+      background: #DBECFF;
+      padding: 45px 32px 0px;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      margin-bottom: 30px;
+      height: 100%;
+    }
+}
+
+
+
+
+
 .app-showcase-item .round {
   width: 670px;
   height: 670px;

@@ -3107,6 +3107,7 @@ header .header-top .header-info-right ul li i {
   transition: all 0.3s ease;
   border-radius: 8px;
   padding: 50px 40px;
+  height: 100%;
 }
 .feature-card-widget-8:hover {
   box-shadow: 0px 16px 60px 0px rgba(63, 93, 101, 0.2);
@@ -3629,8 +3630,8 @@ header .header-top .header-info-right ul li i {
   border-radius: 16px;
   background: linear-gradient(180deg, #E7F2FF 0%, #F8FFFD 100%);
   margin-right: 25px;
-  padding-top: 38px;
-  padding-right: 38px;
+  /* padding-top: 38px; */
+  /* padding-right: 38px; */
 }
 
 .saas-features-content {

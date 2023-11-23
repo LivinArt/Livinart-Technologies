@@ -10299,7 +10299,13 @@ blockquote .author span {
   padding: 40px 0;
 }
 .saas-footer-bottom .f-social a {
-  color: var(--brand_color);
+  color: #A7AABE;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 18px;
+}
+.saas-footer-bottom .brand {
+  color: #7071E8;
   font-size: 16px;
   display: inline-block;
   margin-right: 18px;

@@ -3684,6 +3684,22 @@ header .header-top .header-info-right ul li i {
   display: inline-block;
   margin-right: 50px;
 }
+
+@media(max-width:596px) {
+  .features-icon-box.feedback:not(:first-child):before {
+      content: "";
+      width: 1px;
+      height: 100px;
+      background: #878BA9;
+      opacity: 0.5;
+      position: relative;
+      display: inline-block;
+      margin-right: 50px;
+      display: none;
+    }
+}
+
+
 .features-icon-box.feedback h4 {
   font-size: 52px;
   line-height: 1;

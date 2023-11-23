@@ -10445,7 +10445,7 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   padding: 0 5px;
   margin-left: 15px;
   height: 26px;
-  max-width: min-content;
+  max-width: max-content;
 }
 
 .js-darkmode-btn label {

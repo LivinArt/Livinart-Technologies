@@ -237,6 +237,7 @@
   .navbar-collapse {
     /* background: #fff; */
     padding: 0 10px;
+    
   }
   .header-menu .container {
     max-width: 100%;
@@ -304,9 +305,7 @@
   .navbar-collapse {
     max-height: 400px;
     overflow-y: scroll;
-    z-index: 9999;
   }
-  
   .doc_mobile_menu .open_icon {
     display: block;
     right: -40px;

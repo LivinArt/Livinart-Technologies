@@ -144,6 +144,23 @@
   .saas-section-title h2{
     font-size: 42px;
     line-height: 60px;
+    text-align: left;
+  }
+
+  @media(max-width:596px){
+      .saas-section-title h2 {
+          font-size: 42px;
+          line-height: 60px;
+          text-align: center;
+        }
+
+  }
+  @media(max-width:596px){
+      .saas-section-title p {
+         
+          text-align: center;
+        }
+
   }
   .features-icon-box.feedback h4{
     font-size: 42px;

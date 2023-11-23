@@ -492,7 +492,27 @@ input::-webkit-inner-spin-button {
   line-height: 70px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 16px;
+  text-align: left;
 }
+.saas-section-title p {
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 70px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 16px;
+  text-align: left;
+}
+@media(max-width: 596px) {
+  .saas-section-title p {
+      font-size: 52px;
+      font-weight: 500;
+      line-height: 70px;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+}
+
 .saas-section-title h2 span {
   background: linear-gradient(90deg, #6c1d1d 45.35%, #6299FC 100%,);
   -webkit-background-clip: text;
@@ -10279,7 +10299,7 @@ blockquote .author span {
   padding: 40px 0;
 }
 .saas-footer-bottom .f-social a {
-  color: #A7AABE;
+  color: var(--brand_color);
   font-size: 16px;
   display: inline-block;
   margin-right: 18px;

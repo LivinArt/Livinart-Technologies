@@ -487,9 +487,9 @@ input::-webkit-inner-spin-button {
 }
 
 .saas-section-title h2 {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 500;
-  line-height: 70px;
+  line-height: 60px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 16px;
   text-align: left;
@@ -8194,7 +8194,7 @@ header .header-top .header-info-right ul li i {
 .cta-4 {
   background-color: var(--brand_color);
   position: relative;
-  padding: 60px 80px;
+  padding: 60px 180px;
   z-index: 1;
   border-radius: 8px;
   transform: translateY(50%);
@@ -8202,12 +8202,13 @@ header .header-top .header-info-right ul li i {
 .cta-4 .cta-content {
   position: relative;
   z-index: 1;
+  padding-left: 100px;
 }
 .cta-4 .cta-content h2 {
   font-family: "Poppins";
-  font-size: 45px;
+  /* font-size: 45px; */
   font-weight: 600;
-  line-height: 65px;
+  line-height: 40px;
   letter-spacing: -0.02em;
 }
 .cta-4 .cta-content p {
@@ -8292,14 +8293,14 @@ header .header-top .header-info-right ul li i {
 .saas-subscribe-area .cta-content {
   max-width: 522px;
 }
-.saas-subscribe-area .cta-content h2 {
+/* .saas-subscribe-area .cta-content h2 {
   font-weight: 500;
   font-size: 52px;
 }
 .saas-subscribe-area .cta-content p {
   font-size: 18px;
   opacity: 0.8;
-}
+} */
 .saas-subscribe-area .cta-content .form-control {
   border: 0px;
 }

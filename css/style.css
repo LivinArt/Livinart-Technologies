@@ -494,14 +494,29 @@ input::-webkit-inner-spin-button {
   margin-bottom: 16px;
   text-align: left;
 }
-.saas-section-title p {
-  font-size: 52px;
-  font-weight: 500;
-  line-height: 70px;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 16px;
-  text-align: left;
+
+@media(max-width:596px){
+  .saas-section-title h2 {
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 60px;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
 }
+
+.saas-section-title p {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 70px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 16px;
+    text-align: left;
+
+}
+
 @media(max-width: 596px) {
   .saas-section-title p {
       font-size: 52px;
@@ -8063,7 +8078,7 @@ header .header-top .header-info-right ul li i {
   top: 20%;
 }
 .cta-3 .cta-content {
-  position: relative;
+  /* position: relative; */
   z-index: 1;
 }
 .cta-3 .cta-content h5 {
@@ -8291,7 +8306,7 @@ header .header-top .header-info-right ul li i {
   padding: 120px 0px;
 }
 .saas-subscribe-area .cta-content {
-  max-width: 522px;
+  max-width: 525px;
 }
 /* .saas-subscribe-area .cta-content h2 {
   font-weight: 500;
@@ -10296,6 +10311,7 @@ blockquote .author span {
 }
 
 .saas-footer-bottom {
+  
   border-top: 1px solid var(--black_50);
   padding: 40px 0;
 }

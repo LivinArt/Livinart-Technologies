@@ -8217,8 +8217,17 @@ header .header-top .header-info-right ul li i {
 .cta-4 .cta-content {
   position: relative;
   z-index: 1;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
+
+@media(max-width:596px){
+  .cta-4 .cta-content {
+      position: relative;
+      z-index: 1;
+      /* padding-left: 100px; */
+    }
+}
+
 .cta-4 .cta-content h2 {
   font-family: "Poppins";
   /* font-size: 45px; */
@@ -10270,6 +10279,9 @@ blockquote .author span {
 }
 
 /*========== saas-footer-area css ========*/
+
+
+
 .saas-footer-top {
   padding: 80px 0 50px;
 }

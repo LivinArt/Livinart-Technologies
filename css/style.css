@@ -7355,8 +7355,10 @@ header .header-top .header-info-right ul li i {
   line-height: 28px;
 }
 .faq_item .faq-body {
-  padding-right: 100px;
-  padding-top: 8px;
+  padding: 8px 10px;
+}
+.faq_item .faq-body ul{
+  text-align: justify;
 }
 
 /*----------------------------------------------------*/

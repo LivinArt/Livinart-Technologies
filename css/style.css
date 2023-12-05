@@ -7846,11 +7846,11 @@ header .header-top .header-info-right ul li i {
 }
 
 .clients-logo {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 .clients-logo:hover {
-  opacity: 1;
-  transform: scale(1.02);
+  /* opacity: 1; */
+  transform: scale(1.05);
 }
 
 /*========= map_area css =======*/

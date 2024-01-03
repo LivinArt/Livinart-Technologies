@@ -2,6 +2,7 @@ import "./App.css";
 import Login from "./components/Login";
 import Admin from "./components/Admin";
 import Home from "./components/Home";
+import About from "./components/About";
 import SignUP from "./components/Signup";
 import Error from "./components/Error";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,7 +19,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUP />} />
         <Route path="/add-project" element={<AddProject />} />
-        
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

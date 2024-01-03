@@ -9547,6 +9547,7 @@ blockquote .author span {
   display: block;
   width: 54px;
   height: 54px;
+
 }
 .dropzone .dz-preview.dz-processing .dz-progress {
   opacity: 1;
@@ -10314,7 +10315,9 @@ blockquote .author span {
 .saas-footer-top {
   padding: 80px 0 50px;
 }
-
+.footer-simple-css1{
+  margin-top: 40px !important;
+}
 .f-widget-title {
   font-weight: 600;
   font-size: 18px;

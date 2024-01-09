@@ -8738,7 +8738,8 @@ header .header-top .header-info-right ul li i {
   height: 25px;
   border-radius: 2px;
   bottom: 0;
-  right: 35px;
+  top:-12px;
+  right:0;
   font-size: 14px;
   color: #fff;
   font-family: "Roboto", sans-serif;

@@ -10,11 +10,6 @@ import AddProject from "./components/AddProject";
 
 
 function App() {
-
-  if(window.location.pathname=="/livinArt"){
-    window.location.href="/livinArt/index.html"
-  }
-
   return (
     <Router>
       <Routes>

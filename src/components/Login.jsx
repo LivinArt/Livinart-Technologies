@@ -18,7 +18,7 @@ function Login() {
             <h2 className="text-5xl font-bold text-center ">
               LivinArt Technologies
             </h2>
-            <p className="text-center font-mono font-bold">
+            <p className="text-center font-mono font-bold border">
               Serving Technology Better
             </p>
           </div>

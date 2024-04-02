@@ -46,48 +46,52 @@
         }
 
         .app-showcase-area {
-            display: flex;
-            flex-direction: column;
-            /* Stack items vertically */
-            margin: 20px;
-            gap: 20px;
-            /* Add gap between divisions */
-        }
+    text-align: center;
+    margin-top: 20px;
+}
 
-        .division {
-            display: flex;
-        }
+.center {
+    text-align: center;
+}
 
-        .division .left {
-            flex: 1;
-        }
+.division {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
 
-        .division .right {
-            flex: 1;
-            text-align: right;
-        }
+.left {
+    flex: 1;
+}
 
-        .division .right img {
-            width: 100px;
-            /* Adjust size as needed */
-            height: auto;
-        }
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        .center {
-            text-align: center;
-            margin-bottom: 150px;
-        }
+.right img {
+    width: 80px; /* Adjust image size */
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add border around image */
+}
 
-        .stack-name {
-            margin-right: 50px;
-        }
+.title-stack {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
 
-        .title-stack {
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 10px;
-        }
+.stack-name {
+    font-size: 16px;
+    margin: 0;
+}
+
+.stack-heading{
+    margin-bottom: 200px;
+}
+
     </style>
 </head>
 
@@ -442,7 +446,7 @@
         <!-- saas features area  -->
         <!-- app showcase start -->
         <section class="app-showcase-area">
-            <h2 class="center">Technology Stack</h2>
+            <h2 class="stack-heading">Technology Stack</h2>
             <div class="division">
                 <div class="left">
                     <h3 class="title-stack">Mobile App Development</h3>

@@ -45,14 +45,18 @@
             border: 0.1px solid grey;
         }
 
-        .app-showcase-area {
+     .app-showcase-area {
     text-align: center;
     margin-top: 20px;
 }
 
-.center {
-    text-align: center;
+.stack-heading {
+    font-size: 35px; 
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 120px; 
 }
+
 
 .division {
     display: flex;
@@ -76,6 +80,11 @@
     height: auto;
     margin-bottom: 10px;
     border: 1px solid #ccc; /* Add border around image */
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.right:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
 }
 
 .title-stack {
@@ -88,9 +97,6 @@
     margin: 0;
 }
 
-.stack-heading{
-    margin-bottom: 200px;
-}
 
     </style>
 </head>

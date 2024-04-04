@@ -45,23 +45,22 @@
             border: 0.1px solid grey;
         }
 
-     .app-showcase-area {
+        .app-showcase-area {
     text-align: center;
     margin-top: 20px;
 }
 
 .stack-heading {
-    font-size: 35px; 
+    font-size: 35px;
     font-weight: bold;
-    color: #333; 
-    margin-bottom: 120px; 
+    color: #333;
+    margin-bottom: 80px; /* Adjusted margin */
 }
-
 
 .division {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* Adjusted margin */
 }
 
 .left {
@@ -73,30 +72,51 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.image-container {
+    width: 100px; /* Adjusted width for square box */
+    height: 100px; /* Adjusted height for square box */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    overflow: hidden; /* Ensure image stays within the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+    margin-bottom: 20px; /* Adjusted margin */
 }
 
 .right img {
-    width: 80px; /* Adjust image size */
-    height: auto;
-    margin-bottom: 10px;
-    border: 1px solid #ccc; /* Add border around image */
-    transition: transform 0.3s ease; /* Add transition for smooth effect */
+    max-width: 100%; /* Set maximum width to prevent image overflow */
+    max-height: 100%; /* Set maximum height to prevent image overflow */
+    flex-shrink: 0; /* Prevent image from shrinking */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding transition for smooth effect */
+    filter: grayscale(100%); /* Convert image to grayscale by default */
 }
+
 
 .right:hover img {
-    transform: scale(1.1); /* Scale up the image on hover */
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhancing shadow effect on hover */
+    filter: grayscale(0%); /* Revert image to full color on hover */
 }
+
 
 .title-stack {
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 24px; /* Adjusted font size */
+    font-weight: bold; /* Added bold font weight */
+    color: #333; /* Font color */
+    text-transform: uppercase; /* Convert text to uppercase */
+    margin-bottom: 10px; /* Adjusted margin */
 }
+
 
 .stack-name {
-    font-size: 16px;
+    font-size: 18px; /* Adjusted font size */
     margin: 0;
+    color: black; /* Changed font color */
 }
-
 
     </style>
 </head>
@@ -458,7 +478,9 @@
                     <h3 class="title-stack">Mobile App Development</h3>
                 </div>
                 <div class="right">
-                    <img src="./img/blog/node.png" alt="Technology Image" />
+                    <div class="image-container">
+                        <img src="./img/blog/node.png" alt="Technology Image" />
+                    </div>
                     <p class="stack-name">Flutter</p>
                 </div>
             </div>
@@ -467,7 +489,9 @@
                     <h3 class="title-stack">Web App Development </h3>
                 </div>
                 <div class="right">
-                    <img src="https://bucket.roadtocode.org/C-FEB-24/C-Assignment-7/vaishnavihole1@gmail.com/1712039951133-flutter-img.png" alt="Technology Image">
+                    <div class="image-container">
+                        <img src="./img/blog/node.png" alt="Technology Image" />
+                    </div>
                     <p class="stack-name">React JS</p>
                 </div>
             </div>

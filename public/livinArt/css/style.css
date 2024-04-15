@@ -856,7 +856,7 @@ input::-webkit-inner-spin-button {
 }
 .theme-btn-2.theme-btn-primary::before {
   background-color: transparent;
-  background-image: linear-gradient(to top, #0050b2 0%, #4185d9 100%);
+  background-image: linear-gradient(to top,  #2a8a9d 0%,  #2a8a9d 100%);
 }
 
 /*----------------------------------------------------*/

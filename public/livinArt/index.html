@@ -25,8 +25,9 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
     <style>
         .service-button {
-            border: 2px solid #2a8a9d !important;
+            border: 1px solid #2a8a9d !important;
             color: black !important;
+            cursor: pointer;
         }
 
         .livin-qr-btn {
@@ -53,26 +54,26 @@
 .stack-heading {
     font-size: 35px;
     font-weight: bold;
-    color: #333;
     margin-bottom: 80px; /* Adjusted margin */
+    margin-top: -85px;
 }
 
 .division {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px; /* Adjusted margin */
+    margin-bottom: -22px; /* Adjusted margin */
 }
 
-.left {
+/* .left {
     flex: 1;
-}
+} */
 
 .right {
-    flex: 1;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: 90px;
+    gap: 90px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .image-container {
@@ -83,22 +84,25 @@
     align-items: center; /* Center the content vertically */
     overflow: hidden; /* Ensure image stays within the box */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+    box-shadow: 10 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
     margin-bottom: 20px; /* Adjusted margin */
 }
 
 .right img {
+    border-radius: 10%;
     max-width: 100%; /* Set maximum width to prevent image overflow */
     max-height: 100%; /* Set maximum height to prevent image overflow */
+    object-fit: cover;
     flex-shrink: 0; /* Prevent image from shrinking */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adding transition for smooth effect */
     filter: grayscale(100%); /* Convert image to grayscale by default */
 }
 
 
-.right:hover img {
+.right img:hover {
+    border-radius: 10%;
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Enhancing shadow effect on hover */
+    box-shadow: 10 10 20px rgba(0, 0, 0, 0.2); /* Enhancing shadow effect on hover */
     filter: grayscale(0%); /* Revert image to full color on hover */
 }
 
@@ -278,31 +282,31 @@
                 <div class="row gy-md-0 gy-4 align-items-center h-100">
                     <div class="col-lg-2 col-4 ">
                         <a href="#"><img class="clients-logo img-fluid wow fadeInRight rounded" data-wow-delay="0.1s"
-                                src="/img/client/innovation.png" alt="logo"></a>
+                                src="../img/client/madhav.png" alt="logo"></a>
                     </div>
                     <!-- <div class="col-lg-2 col-4">
                             <a href="#"><img class="clients-logo img-fluid wow fadeInRight rounded" data-wow-delay="0.3s"
-                                    src="/img/client/jodo.png" alt="logo"></a>
+                                    src="../img/client/jodo.png" alt="logo"></a>
                         </div> -->
                     <div class="col-lg-2 col-4">
                         <a href="#"><img class="clients-logo img-fluid wow fadeInRight rounded" data-wow-delay="0.5s"
-                                src="/img/client/madhav.png" alt="logo"></a>
+                                src="../img/client/madhav.png" alt="logo"></a>
                     </div>
                     <div class="col-lg-2 col-4">
                         <a href="#"><img class="clients-logo img-fluid wow fadeInRight rounded" data-wow-delay="0.7s"
-                                src="/img/client/onnway.png" alt="logo"></a>
+                                src="../img/client/onnway.png" alt="logo"></a>
                     </div>
                     <div class="col-lg-2 col-4">
                         <a href="#"><img class="clients-logo img-fluid wow fadeInRight rounded" data-wow-delay="0.7s"
-                                src="/img/client/sainath.jpg" alt="logo"></a>
+                                src="../img/client/sainath.jpg" alt="logo"></a>
                     </div>
                     <div class="col-lg-2 col-4">
                         <a href="#"><img class="clients-logo img-fluid wow fadeInRight rounded" data-wow-delay="0.7s"
-                                src="/img/client/spotrental.jpg" alt="logo"></a>
+                                src="../img/client/spotrental.jpg" alt="logo"></a>
                     </div>
                     <div class="col-lg-2 col-4 mx-auto">
                         <a href="#"><img class="clients-logo img-fluid wow fadeInRight rounded" data-wow-delay="0.7s"
-                                src="/img/client/weshuddh.jpg" alt="logo"></a>
+                                src="../img/client/weshuddh.jpg" alt="logo"></a>
                     </div>
                 </div>
             </div>
@@ -474,21 +478,68 @@
             </div>
         </section>
         <!-- saas features area  -->
+
+
         <!-- app showcase start -->
+      
         <section class="app-showcase-area">
-            <h2 class="stack-heading">Technology Stack</h2>
+            <h2 class="stack-heading">Technology We Use</h2>
             <div class="division">
-                <div class="left">
+                <!-- <div class="left">
                     <h3 class="title-stack">Mobile App Development</h3>
-                </div>
-                <div class="right">
-                    <div class="image-container">
+                </div> -->
+                 <div class="right row gy-md-0 gy-3 align-items-center h-100">
+
+                    <div class="image-container col-lg-2 col-4">
+                        <img class="" data-wow-delay="0.7s"
+                                src="./img/blog/flutter.png" alt="logo">
+                    </div>
+                    <div class="image-container col-lg-2 col-4">
+                        <img class="" data-wow-delay="0.7s"
+                                src="./img/blog/html.png" alt="logo">
+                    </div>
+                    <div class="image-container col-lg-2 col-4">
+                        <img class="" data-wow-delay="0.7s"
+                                src="./img/blog/css.png" alt="logo">
+                    </div>
+                    <div class="image-container col-lg-2 col-4">
+                        <img class="" data-wow-delay="0.7s"
+                                src="./img/blog/jjjjj.png" alt="logo">
+                    </div>
+                    <div class="image-container col-lg-2 col-4">
+                        <img class="" data-wow-delay="0.7s"
+                                src="./img/blog/python.png" alt="logo">
+                    </div>
+                    <div class="image-container col-lg-2 col-4">
+                        <img class="" data-wow-delay="0.7s"
+                                src="./img/blog/Reactjs.png" alt="logo">
+                    </div>
+                    <!-- <div class="image-container">
                         <img src="./img/blog/flutter.png" alt="Technology Image" />
                     </div>
-                    <p class="stack-name">Flutter</p>
-                </div>
+                    <div class="image-container">
+                        <img src="./img/blog/html.png" alt="Technology Image" />
+                    </div>
+                    <div class="image-container">
+                        <img src="./img/blog/css.png" alt="Technology Image" />
+                    </div>
+                    <div class="image-container">
+                        <img src="./img/blog/js (6).png" alt="Technology Image" />
+                    </div>
+                    <div class="image-container">
+                        <img src="./img/blog/python.png" alt="Technology Image" />
+                    </div>
+                    <div class="image-container">
+                        <img src="./img/blog/Reactjs.png" alt="Technology Image" />
+                    </div>
+                    -->
+
+                   
+                   
+                    <!-- <p class="stack-name">Flutter</p> -->
+                </div> 
             </div>
-            <div class="division">
+            <!-- <div class="division">
                 <div class="left">
                     <h3 class="title-stack">Web App Development </h3>
                 </div>
@@ -498,7 +549,7 @@
                     </div>
                     <p class="stack-name">React JS</p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
 

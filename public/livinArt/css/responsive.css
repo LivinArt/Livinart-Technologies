@@ -757,7 +757,7 @@
   /* ------------- */
 
   .cta {
-    padding: 40px 25px;
+    padding: 5px 25px;
   }
 
   .cta .theme-btn {
@@ -1153,6 +1153,7 @@
     width: auto;
     left: 10px;
     right: 10px;
+    height: 270px;
   }
   .cta-content h2 {
     font-size: 28px;

@@ -560,6 +560,7 @@ input::-webkit-inner-spin-button {
   display: inline-block;
   line-height: 18px;
   transition: all 0.2s linear;
+  margin-bottom: -12px;
 
 }
 .text-btn:before {
@@ -4281,7 +4282,7 @@ header .header-top .header-info-right ul li i {
   color: var(--p_color);
   line-height: 31px;
   margin-top: 66px;
-  margin-left: -24px;
+  margin-left: 5px;
 }
 
 /*----------------------------------------*/
@@ -7942,7 +7943,7 @@ header .header-top .header-info-right ul li i {
 /*  Call To Action CSS
 /*----------------------------------------*/
 .cta {
-  background-position: center;
+  /* background-position: center;
   background-size: auto;
   padding: 40px 110px 40px 100px;
   border-radius: 10px;
@@ -7953,7 +7954,19 @@ header .header-top .header-info-right ul li i {
   bottom: 0;
   transform: translateY(50%);
   left: 15px;
-  right: 15px;
+  right: 15px; */
+  background-position: center;
+    background-size: auto;
+    padding: 9px 64px 78px 82px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: auto;
+    bottom: 18px;
+    transform: translateY(50%);
+    left: 15px;
+    right: 15px;
 }
 .cta .shapes img {
   position: absolute;
@@ -8168,7 +8181,7 @@ header .header-top .header-info-right ul li i {
 .cta-content h2 {
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 .cta-content p {
   color: #fff;

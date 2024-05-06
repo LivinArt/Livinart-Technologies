@@ -540,16 +540,16 @@
   padding-top: 120px;
 }
 .pt-125 {
-  padding-top: 125px;
+  padding-top: 70px;
 }
 .pt-130 {
-  padding-top: 130px;
+  padding-top: -60px;
 }
 .pt-135 {
   padding-top: 135px;
 }
 .pt-140 {
-  padding-top: 140px;
+  padding-top: 85px;
 }
 .pt-145 {
   padding-top: 145px;
@@ -585,7 +585,7 @@
   padding-top: 195px;
 }
 .pt-200 {
-  padding-top: 200px;
+  padding-top: 209px;
 }
 
 .pb-10 {
@@ -667,10 +667,10 @@
   padding-bottom: 135px;
 }
 .pb-140 {
-  padding-bottom: 140px;
+  padding-bottom: 90px;
 }
 .pb-145 {
-  padding-bottom: 145px;
+  padding-bottom: 120px;
 }
 .pb-150 {
   padding-bottom: 150px;
@@ -1654,7 +1654,8 @@
   }
 
   .pl-lg-10 {
-    padding-left: 10px;
+    padding-left: 1px;
+    margin-left: 56px;
   }
   .pl-lg-15 {
     padding-left: 15px;

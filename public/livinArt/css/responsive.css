@@ -948,7 +948,7 @@
   .cta .theme-btn {
     height: 55px;
     line-height: 50px;
-    margin-top: 25px;
+    margin-top: 6px;
   }
 
   /* ------------- */
@@ -1270,6 +1270,9 @@
     max-height: 16px;
   }
 
+
+  
+
   /* ------------- */
   .banner-area .banner-content .img-area img {
     max-width: 250px !important;
@@ -1414,7 +1417,7 @@
     width: auto;
     left: 10px;
     right: 10px;
-    height: 270px;
+    height: 342px;
   }
 
   .cta-content h2 {
@@ -1433,6 +1436,7 @@
     line-height: 48px;
     padding: 0 30px;
     font-size: 18px;
+    margin-bottom: -40px;
   }
 
   .cta.cta-2 {
@@ -2075,4 +2079,18 @@
         margin-left: 19px;
     }
 }
+}
+
+
+@media (max-width: 320px) {
+  .cta-content .theme-btn {
+      margin-top: -24px;
+  }
+}
+
+
+@media (max-width: 1300px) {
+  .saas-clients-logo .row {
+      justify-content: center;
+  }
 }

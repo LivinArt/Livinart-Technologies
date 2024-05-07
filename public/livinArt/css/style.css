@@ -556,7 +556,7 @@ input::-webkit-inner-spin-button {
   font-family: "Roboto", sans-serif;
   color: #1B2A52;
   position: absolute;
-  bottom: 20px;
+  bottom: 29px;
   display: inline-block;
   line-height: 18px;
   transition: all 0.2s linear;
@@ -3158,7 +3158,7 @@ header .header-top .header-info-right ul li i {
   transition: all 0.3s ease;
   border-radius: 5px;
   padding: 50px 40px;
-  height: 450px;
+  height: 324px;
   position: relative;
 
 }
@@ -3659,8 +3659,10 @@ header .header-top .header-info-right ul li i {
   padding: 40px 32px;
 }
 .saas-feature-card h4 {
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: -1px;
+  text-align: center;
+  margin-top: 2px;
 }
 .saas-feature-card p {
   color: #878BA9;
@@ -3686,6 +3688,13 @@ header .header-top .header-info-right ul li i {
   width: 28.125rem;
   height: 25.125rem;
   padding: 0px;
+}
+.feature-img{
+  
+    height: 43px;
+    margin-top: -33px;
+    width: 86px;
+
 }
 
 @media(max-width:596px) {
@@ -8146,7 +8155,7 @@ header .header-top .header-info-right ul li i {
   color: #535a60;
 }
 .cta-3 .cta-content h2 {
-  line-height: 42px;
+  line-height: 22px;
   margin-bottom: 0;
 }
 .cta-3 .cta-content .theme-btn {

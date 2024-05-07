@@ -1654,8 +1654,11 @@
   }
 
   .pl-lg-10 {
+    /* padding-left: 1px;
+    margin-left: 56px; */
     padding-left: 1px;
-    margin-left: 56px;
+        margin-left: -24px;
+        margin-top: 93px;
   }
   .pl-lg-15 {
     padding-left: 15px;

@@ -3653,16 +3653,25 @@ header .header-top .header-info-right ul li i {
 
 /*========== saas-features- card area css ===========*/
 .saas-feature-card {
+  /* text-align: left;
+  border-radius: 16px;
+  background: #ffffff;
+  padding: 40px 32px; */
   text-align: left;
   border-radius: 16px;
   background: #ffffff;
-  padding: 40px 32px;
+  padding: 207px 32px;
+
 }
 .saas-feature-card h4 {
-  font-size: 20px;
+  /* font-size: 20px;
   letter-spacing: -1px;
   text-align: center;
-  margin-top: 2px;
+  margin-top: 2px; */
+  font-size: 20px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: -62px;
 }
 .saas-feature-card p {
   color: #878BA9;
@@ -3691,9 +3700,12 @@ header .header-top .header-info-right ul li i {
 }
 .feature-img{
   
-    height: 43px;
+    /* height: 43px;
     margin-top: -33px;
-    width: 86px;
+    width: 86px; */
+    height: 116px;
+    margin-top: -293px;
+    width: 162px;
 
 }
 

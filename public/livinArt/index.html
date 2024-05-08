@@ -27,7 +27,7 @@
         .service-button {
             border: 1px solid #2a8a9d !important;
             color: black !important;
-            
+            cursor: pointer;
         }
 
         .livin-qr-btn {
@@ -66,26 +66,14 @@
             /* Adjusted margin */
         }
 
-    
-    
-
+        /* .left {
+    flex: 1;
+} */
 
         .right {
-            /* display: flex;
+            display: flex;
             margin-left: 62px;
             gap: 90px;
-            transition: transform 0.3s ease;
-            cursor: pointer; */
-
-            /* display: flex;
-            margin-left: 29px;
-            gap: 73px;
-            transition: transform 0.3s ease;
-            cursor: pointer; */
-            
-            display: flex;
-            margin-left: 51px;
-            gap: 75px;
             transition: transform 0.3s ease;
             cursor: pointer;
         }
@@ -185,7 +173,7 @@
         <div class="header-menu header-menu-2" id="sticky">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html" style="width:50px; ;">
+                    <a class="navbar-brand" href="/index" style="width:50px; ;">
                         <img class="h-100 w-100 object-fit-cover" src="img/logo/logo-2.png" srcset="img/logo/logo-1.png"
                             alt="logo">
                     </a>
@@ -216,7 +204,7 @@
                             </li>
 
                             <li class="nav-item dropdown submenu">
-                                <a class="nav-link dropdown-toggle" href="contact.html" role="button"
+                                <a class="nav-link dropdown-toggle" href="/contact" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Contact Us
                                 </a>
@@ -234,11 +222,7 @@
                                 
                                 </li> -->
                             <li class="nav-item dropdown submenu">
-                                <!-- <a class="nav-link dropdown-toggle" href="about.html" role="button"
-                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    About Us
-                                </a> -->
-                                <a class="nav-link dropdown-toggle" href="about.html" role="button"
+                                <a class="nav-link dropdown-toggle" href="/about" role="button"
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     About Us
                                 </a>
@@ -257,12 +241,7 @@
                                 </li>  -->
 
                         </ul>
-
-                        <!-- <a class="theme-btn livin-qr-btn" href="/product.html" target="_blank">The Livin QR</a> -->
-
                         <a class="theme-btn livin-qr-btn"  target="_blank">The Livin QR</a>
-
-
                         <div class="px-2 js-darkmode-btn " title="Toggle dark mode">
                             <label for="something" class="tab-btn tab-btns">
                                 <ion-icon name="moon"></ion-icon>
@@ -371,7 +350,6 @@
                                 <div style="text-align: center;">
                                     <img class="feature-img" src="./img/blog/livinQR (2).jpeg"
                                          alt="feature svg">
-                                    
                                 </div>
 
                             </div>
@@ -531,7 +509,7 @@
             <h2 class="stack-heading">Technology We Use</h2>
             <div class="division">
 
-                <div class="right img row gy-md-0 gy-3 align-items-center h-100">
+                <div class="right row gy-md-0 gy-3 align-items-center h-100">
 
                     <div class="image-container col-lg-2 col-4">
                         <img class="" data-wow-delay="0.7s" src="./img/blog/flutter.png" alt="logo">
@@ -550,9 +528,6 @@
                     </div>
                     <div class="image-container col-lg-2 col-4">
                         <img class="" data-wow-delay="0.7s" src="./img/blog/Reactjs.png" alt="logo">
-                    </div>
-                    <div class="image-container col-lg-2 col-4">
-                        <img class="" data-wow-delay="0.7s" src="./img/blog/nodejs.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -913,7 +888,6 @@
         <script type='text/javascript'>
             (function (I, L, T, i, c, k, s) { if (I.iticks) return; I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] }; var h = T.head || T.documentElement; var e = T.createElement(i); var l = I.location; e.async = true; e.src = (L || c) + '/client/inject-v2.min.js'; h.insertBefore(e, h.firstChild); I.iticks.call = function (a, b) { I.iticks.queue.push([a, b]); }; })(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', 'iXZJZMfwjtkoCKmzh_c', {});
         </script>
-        <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siq366d9d36e08c8bb063ee8b0f655c32b49752904b7a8216a169da516eb39d0e63ca763a856e25ad45fcf7aeeebae78c7d", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zohopublic.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
         <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="js/preloader.js"></script>
         <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
@@ -927,9 +901,6 @@
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
-
-        
-
         <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siq366d9d36e08c8bb063ee8b0f655c32b49752904b7a8216a169da516eb39d0e63ca763a856e25ad45fcf7aeeebae78c7d", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zohopublic.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
 </body>
 

@@ -2038,20 +2038,24 @@
 
   /* Media Query About Us */
 
-  @media (max-width : 400px) {
+  /* @media (max-width : 400px) {
     .journey-div {
       margin-left: 20px;
     }
 
-  }
+  } */
+  /* @media (max-width : 1400pxpx) {
+    .journey-div {
+      margin-left: 20px;
+    } */
  
 
-  @media (max-width : 330px) {
+  /* @media (max-width : 330px) {
     .journey-div {
       margin-left: -5px;
     }
 
-  }
+  } */
 
   @media (min-width: 768px) {
 
@@ -2089,8 +2093,22 @@
 }
 
 
-@media (max-width: 1300px) {
+
+@media (max-width: 1440px) {
   .saas-clients-logo .row {
-      justify-content: center;
+      justify-content: space-between;
   }
+}
+
+@media (min-width: 768px) {
+  .journey-div {
+    margin-top: 75px;
+    margin-left: -16px;
+}
+}
+@media (min-width: 1024px) {
+  .journey-div {
+    margin-top: 75px;
+    margin-left: 45px;
+}
 }

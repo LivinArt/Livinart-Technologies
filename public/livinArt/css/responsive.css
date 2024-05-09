@@ -2124,3 +2124,25 @@
     margin-left: 33px;
 }
 }
+
+
+@media (min-width: 375px) {
+  .box {
+    margin-left: -15px;
+    padding: 57px;
+    margin-top: -96px;
+  }
+}
+@media (min-width: 425px) {
+  .box {
+    margin-left: -1px;
+    padding: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .box {
+      margin-left: -15px;
+      margin-top: -49px;
+  }
+
+}

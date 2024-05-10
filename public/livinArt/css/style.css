@@ -7986,8 +7986,8 @@ header .header-top .header-info-right ul li i {
     width: auto;
     bottom: 18px;
     transform: translateY(50%);
-    left: 15px;
-    right: 15px;
+    left: 6px;
+    right: 2px;
 }
 .cta .shapes img {
   position: absolute;
